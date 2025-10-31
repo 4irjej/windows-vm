@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/11/en-us_windows_11_24h2_x64.iso"
+      VERSION: "https://archive.org/download/7601.24214.180801-1700.win-7sp-1-ldr-escrow-client-homepremium-x-64-fre-en-us_202212/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x64FRE_en-us.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
