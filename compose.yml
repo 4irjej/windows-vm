@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/7601.24214.180801-1700.win-7sp-1-ldr-escrow-client-homepremium-x-64-fre-en-us_202212/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x64FRE_en-us.iso"
+      VERSION: "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_pro_vl_x64_dvd_917699.iso.7z"
       MANUAL: "Y"
     devices:
       - /dev/kvm
