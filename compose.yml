@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_pro_vl_x64_dvd_917699.iso.7z"
+      VERSION: "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_x64_dvd_915440.iso"
       MANUAL: "Y"
     devices:
       - /dev/kvm
