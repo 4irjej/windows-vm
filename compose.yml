@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/en_windows_8_pro_vl_x64_dvd_917699/en_windows_8_pro_vl_x64_dvd_917699.iso"
+      VERSION: "https://api.isdn.network/api/v1/artifacts/bc716e3a-3397-4297-8986-485562feb509/download"
       MANUAL: "Y"
     devices:
       - /dev/kvm
