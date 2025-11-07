@@ -3,8 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://api.isdn.network/api/v1/artifacts/bc716e3a-3397-4297-8986-485562feb509/download"
-      MANUAL: "Y"
+      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_English_x64.iso?t=96be70cb-59c9-440e-901f-e4b4e3359342&P1=1762599675&P2=601&P3=2&P4=ZhenC8CmIxDV00ViDuB%2fmq5VatP4FGIg%2bFVh%2brbn39tQ9yrZK8vnQJPgzKV3VhvPXI9E4cUeJIcfF8i5gD4f2rRKsx4DNol%2fQ26mCaxGP7c%2fattoaRkctHxeLrXtQumHuYxCuPUZMJHrv2hkwcWmXppeZeSokXvJXzYD5SlaDAGl%2bzUDuLaEZsuYFzXgG0IKizGXdgn2kOYqqwVTqK2V%2fl4WvAV6BCwm4VoIO3SQbrp1EGk1xuwgJprNZFsxqCJd%2bKfsA3KqW4WdZNkM0fWU9hKvgq5spqCDUOIX8dh9b76KCcEh3Xqxhaf%2fbvFH18O8E89ekxbELJuDtTL40V3eJA%3d%3d"
     devices:
       - /dev/kvm
       - /dev/net/tun
