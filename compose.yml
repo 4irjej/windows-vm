@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f_202301/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+      VERSION: "https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_10_business_editions_version_21h2_updated_april_2022_x64_dvd_38bad9d1.iso?t=25afe3d3-4ca7-490c-aee9-04169343502c&P1=1775044660&P2=601&P3=2&P4=aj%2FMHb3GE7yXCXwXUPrnm7LXBKVaXI%2Ba1tr2SN5vZ8RUuhywJzzttHanAHCMeshypzfcYwi%2FXypnXes4NzK29G1ZqklCMUcCbs9ZFruVQVDPBRUeq3KhIvp166ia6ojkRp7CMpZC0N4F%2FpV6rJjZl98VvYfpcTcUSJLnw9AKATVGV%2FbNs0TkCWChgPRAF%2FYk9I18daXXWTMcMpwinAEUsSkN2BKzcLWbgHNSmQ%2Bm%2B4J61ngWIOAtp9asApmWIDb2dqTQ1L6ykDu%2F657qUHSmqEQzNlBaqKHr2BXGNbyS8fVhhPPSN1WKwiawLPi1oYJJbYsvg3LDJN2olahVwVIaNw%3D%3D&su=1"
     devices:
       - /dev/kvm
       - /dev/net/tun
