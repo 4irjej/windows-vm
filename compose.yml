@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_10_business_editions_version_21h2_updated_april_2022_x64_dvd_38bad9d1.iso?t=25afe3d3-4ca7-490c-aee9-04169343502c&P1=1775044660&P2=601&P3=2&P4=aj%2FMHb3GE7yXCXwXUPrnm7LXBKVaXI%2Ba1tr2SN5vZ8RUuhywJzzttHanAHCMeshypzfcYwi%2FXypnXes4NzK29G1ZqklCMUcCbs9ZFruVQVDPBRUeq3KhIvp166ia6ojkRp7CMpZC0N4F%2FpV6rJjZl98VvYfpcTcUSJLnw9AKATVGV%2FbNs0TkCWChgPRAF%2FYk9I18daXXWTMcMpwinAEUsSkN2BKzcLWbgHNSmQ%2Bm%2B4J61ngWIOAtp9asApmWIDb2dqTQ1L6ykDu%2F657qUHSmqEQzNlBaqKHr2BXGNbyS8fVhhPPSN1WKwiawLPi1oYJJbYsvg3LDJN2olahVwVIaNw%3D%3D&su=1"
+      VERSION: "https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_11_business_editions_version_23h2_x64_dvd_a9092734.iso?t=1f074a19-6a6e-46de-9e11-f4b6f01e708b&P1=1775239334&P2=601&P3=2&P4=muDfcdWWd52ImZvU7WA%2BVWhk1zxPhP62Ze%2FV57Dtf764CbFjE4JK%2Fab4WDIlQVHnX15XezpFHzqAR3d9CpZ%2BEmQ5HnYuPFzQ2DBWGOuUfQqON98FIKmLnvgvlPdKLvuzxb04uy5COnKPf5wL3mIh7OF8M%2F%2Ftqaq%2BJ%2FEe1YHoD66ZuhrOx1%2FpLCShDNUuAWe29rRanx9s9YCtAykJ5Qv7F3U7oFh7pC1waXDtdPpvwWnXgo%2FiqmWuPqHPECswMZyX8aYdVH8MPh3NEIdXBnN7ISRPPO3X1YEuALADSW8hu6uOZrN0l7oU1Lo7m2YwAMmUEHQs4X0s0PBeCgBz1yuEqQ%3D%3D&su=1"
     devices:
       - /dev/kvm
       - /dev/net/tun
