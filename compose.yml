@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_11_business_editions_version_23h2_x64_dvd_a9092734.iso?t=1f074a19-6a6e-46de-9e11-f4b6f01e708b&P1=1775239334&P2=601&P3=2&P4=muDfcdWWd52ImZvU7WA%2BVWhk1zxPhP62Ze%2FV57Dtf764CbFjE4JK%2Fab4WDIlQVHnX15XezpFHzqAR3d9CpZ%2BEmQ5HnYuPFzQ2DBWGOuUfQqON98FIKmLnvgvlPdKLvuzxb04uy5COnKPf5wL3mIh7OF8M%2F%2Ftqaq%2BJ%2FEe1YHoD66ZuhrOx1%2FpLCShDNUuAWe29rRanx9s9YCtAykJ5Qv7F3U7oFh7pC1waXDtdPpvwWnXgo%2FiqmWuPqHPECswMZyX8aYdVH8MPh3NEIdXBnN7ISRPPO3X1YEuALADSW8hu6uOZrN0l7oU1Lo7m2YwAMmUEHQs4X0s0PBeCgBz1yuEqQ%3D%3D&su=1"
+      VERSION: "https://archive.org/download/windows-11-21996-x64_202106/21996.1.210529-1541.co_release_CLIENT_CONSUMER_x64FRE_en-us.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
